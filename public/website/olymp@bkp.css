@@ -1,0 +1,371 @@
+body
+{
+background-color:#0b1118;
+}
+
+
+.navbar-dark .navbar-nav .nav-link
+{
+	 color:white;
+	 padding:10px 50px; 
+}
+.btn-dark
+{
+	background: #6f7e8a;
+}
+a:hover
+{
+	text-decoration: none;
+}
+img
+{
+	margin-bottom: 16px;
+}
+.rs_1
+{
+	color: white;
+	font-weight: bold;
+	padding: 45px;
+	font-size: 65px;
+	font-family: 'Roboto', sans-serif;
+}
+.rsr
+{
+	color: white;
+}
+.abc
+{
+	border: 1px solid black;
+	
+	border-radius: 25px;
+	background-color:#1d252f;
+	padding: 14px 67px 61px 33px;
+	
+}
+
+.abc1
+{
+	color: white;
+	font-weight: bold;
+}
+li
+{
+	padding: 0px 0px 14px 0px;
+}
+.abc2
+{
+	color:#5b728c;
+	font-size:19px;
+
+}
+.abc3
+{
+	color:#5b728c;
+	
+}
+.fa-star
+{
+	font-size: 20px;
+	margin: 7px;
+}
+.checked
+{
+	color: yellow;
+}
+
+ .checked_1
+ {
+ 	font-size: 26px; 
+ 	position: absolute;
+ 	top: 41px;
+ 	left: 46px;
+
+ }
+ .lg_2
+ {
+ 	line-height: 38px;
+ }
+ .checked_2
+ {
+  font-size: 35px; 
+
+ }
+ .checked_5
+ {
+ 	font-size: 31px;
+   text-align: center;
+   line-height: 69px;
+       padding: 0px 0px 0px 25px;
+}
+
+
+ }
+ .rst
+ {
+ 	padding: 26px;
+ }
+ .ts1
+ {
+ 	
+ 	border-radius: 46px; 
+ 	padding: 0px 40px 0px 77px;
+ 	height: 78px;
+ 	color: white;
+ }
+ p
+ {
+ 	margin-bottom: 4px;
+ }
+ .ts_22
+ {
+ 	font-size: 21px;
+ 	line-height: 16px;
+ 
+ }
+ .ts_11
+
+ {
+ 	font-size: 21px;
+ 	
+ }
+
+.bg-gray 
+{
+    background-color: #263240;
+ 
+}
+
+.ts1:hover
+{
+	background-color: #007bff;
+}
+
+
+.rs_2
+{
+	color: #5b728c;
+	font-family: 'Roboto', sans-serif;
+
+	font-size: 20px;
+}
+.rs_4
+{
+	color:  #5b728c;
+	
+	
+	font-size: 25px;
+}
+.rs_11
+{
+	padding: 54px 30px 36px 47px;
+}
+.rs_12
+{
+	padding: 50px 79px 1px 31px;
+}
+.rs_13
+{
+	position: absolute;
+	bottom: 0px;
+}
+
+.ts
+{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 5px;
+
+}
+.cl_1
+{
+	color: white;
+}
+
+.pt-4
+{
+	background-color:#131e2a;
+}
+
+.cl_1 
+{
+	font-weight: bold;
+}
+.cl_2 
+{
+	color: #5b728c;
+}
+.cl_3
+{
+	font-weight: bold;
+	color:var(--contrast-beta)
+	font-size: 26px;
+}
+.olymp_img
+{
+	padding: 56px 0px 0px 106px;
+}
+.btn_1
+{
+	padding: 0px 97px 93px 0px;
+}
+.text-uppercase
+{
+	color: white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+}
+.list-unstyled
+{
+	padding:18px 0px 0px 0px;
+	padding: 15px;
+}
+a
+{
+	color: #5b728c;
+}
+.footer-copyright
+{
+	color: white;
+}
+@media only screen and (max-width: 991px)
+ {
+ 	.rs_13
+{
+	position: relative;
+
+}
+  
+}
+
+  @media only screen and (max-width: 494px)
+{
+	.ts1
+
+	 {
+    border-radius: 46px;
+    padding: 8px 0px 0px 69px;
+    height: 78px;
+    color: white;
+    margin-top: 10px;
+}
+    .fa-star
+ {
+    font-size: 15px;
+    margin: 8px;
+}
+}
+ @media only screen and (max-width: 1198px)
+ {
+  .navbar-dark .navbar-nav .nav-link
+   {
+    color: white;
+    padding: 2px 33px;
+}
+}
+
+/************************about**************/
+.about_1
+{
+color: black;
+font-size: 36px;
+padding: 10px 10px 10px 31px;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+.about_2
+{
+  color: #007bff;
+padding: 10px 10px 10px 34px;
+font-size: 16px;
+}
+.about_3
+{
+	border: 2px solid #172331;
+	background-color: white;
+	border-radius: 20px;
+}
+.about_3:hover
+{
+	background-color: #172331;
+
+}
+.about_3:hover .about_1
+{
+	
+	color: white;
+	
+}
+.about_3:hover .about_2
+{
+	
+	color: white;
+	
+}
+.about_5
+{
+	color: white;
+padding: 0px 0px 25px 51px;
+font-family: 'Roboto', sans-serif;
+}
+.about_6
+{
+	color: white;
+padding: 0px 1px 1px 43px;
+font-size: 19px;
+}
+/*********************contact***************/
+
+.contact_1
+{
+	color: white;
+	padding: 15px 0px 29px 38px;
+	font-family: 'Roboto', sans-serif;
+	background-color: #12263e;
+
+}
+.contact_ts
+{
+	padding-left:41px;
+}
+.contact_2
+{
+	
+	padding: 2px 26px 0px 1px;
+
+}
+
+.contact_5
+{
+	padding: 0px 0px 0px 28px;
+font-size: 16px;
+}
+.contact_6
+{
+	font-size: 65px;
+	color:blue;
+	padding: 11px 2px 1px 67px;
+}
+/***********************login page****************/
+
+.login-form .form-control{
+          border-radius: 0;
+        }
+        .btn-login{
+          color: #343a40;
+          background-color: #007bff;
+          color: white;
+          border-radius: 0;
+          font-size: 18px;
+          width: 100%;
+
+        }
+        .color
+        {
+        	background-color:#12263e;
+        }
+
+/***************register page******************/
+
+	

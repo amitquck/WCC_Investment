@@ -1,0 +1,12 @@
+[15-Dec-2020 07:34:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/nxpo4spcie9d/public_html/public/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nxpo4spcie9d/public_html/public/index.php on line 9
+[15-Dec-2020 07:34:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/nxpo4spcie9d/public_html/public/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nxpo4spcie9d/public_html/public/index.php on line 9
+[15-Dec-2020 07:34:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function dd() in /home/nxpo4spcie9d/public_html/public/index.php:9
+Stack trace:
+#0 {main}
+  thrown in /home/nxpo4spcie9d/public_html/public/index.php on line 9

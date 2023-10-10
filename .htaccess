@@ -1,0 +1,4 @@
+RewriteEngine On 
+RewriteRule ^$ public/index.php [L]
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
+php_value memory_limit 2048M

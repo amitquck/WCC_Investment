@@ -1,0 +1,33 @@
+.card_cont
+{
+
+	font-size: 30px;
+
+}
+.card_stock
+{
+	color: red;
+	}
+a
+{
+	color: black;
+	font-weight: bold;
+	}
+a:hover
+{
+  color: blue;
+  text-decoration: none;
+}
+.card_stock2
+{
+	font-weight: bold;
+}
+.card_free
+{
+	color: green;
+}
+.card_rs
+{
+	color: green;
+	
+}

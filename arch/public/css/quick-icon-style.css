@@ -1,0 +1,21 @@
+
+.gutters-sm .card-body span i{
+	transition: transform .5s, filter 1.5s ease-in-out;
+	font-size: 70px;
+    position: absolute;
+    right: 20px;
+    opacity: 0.4;
+    top: 10px;
+}
+.gutters-sm .card-body:hover span i{
+	transform: scale(1.5);
+}
+.gutters-sm .card{
+	max-height: 110px;
+}
+.gutters-sm .card .card-title{
+	font-size: 18px;
+}
+.sidebar .nav-link.active {
+    padding-left: 10px !important;
+}

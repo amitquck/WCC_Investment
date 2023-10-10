@@ -1,0 +1,135 @@
+
+#b-wrap {
+	display: block;
+	overflow: hidden;
+}
+
+.menu {
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	left: -200px;
+	top: 0;
+	background-color: #f0f0f0;
+	box-shadow: 1px 0 5px #c0c0c0;
+	-webkit-transition: all ease 1s;
+    -moz-transition: all ease 1s;
+    -ms-transition: all ease 1s;
+    -o-transition: all ease 1s;
+	transition: all ease 1s;
+}
+
+.mhead {
+	min-height: 50px;
+	padding-top: 13px;
+}
+
+/*header {
+	float: left;
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 30px;
+	font-family: 'Philosopher', sans-serif;
+}
+*/
+/* Меню открыть */
+.menu-ham {
+	padding-top: 10px;
+	float: left;
+	margin-left: /*162px*/ 10%;
+	cursor: pointer;
+}
+
+/* Меню закрыть */
+.close-menu {
+	float: right;
+	min-height: 30px;
+	padding-right: 18px;
+	padding-top: 23px;
+	cursor: pointer;
+}
+
+.menu ul {
+	padding-left: 0;
+	margin-top: 80px;
+}
+
+.menu li {
+	list-style: none;
+	text-decoration-style: none;
+	line-height: 170%;
+	padding: 5px 0 5px 40px;
+}
+
+.menu li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #292929;
+	font-family: 'Philosopher', sans-serif;
+}
+.menu li:hover a {
+	color: #fff !important;
+}
+
+.menu li:hover {
+	background-color: #1b716a;
+	cursor: pointer;
+	color: #1b716a !important;
+}
+
+/* Heading */
+
+.hd2 {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 60px;
+	padding-top: 30px;
+}
+
+
+/* Switch buttons */
+
+
+/* Resume link */
+
+
+/* Adaptability */
+/*
+@media screen and (max-width: 400px) {
+	.hd2 {
+		padding-top: 20px;
+	}
+	.hd2 h2 {width: 270px;}
+	.btn {padding-top: 35px;}
+	span {margin-left: 18px;}
+	span a {padding: 6px 12px 0px 12px;}
+	.footer a {
+		margin-top: 100px;
+		margin-left: 40%;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.footer a {
+		margin-top: 200px;
+		margin-left: 45%;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	.footer a {
+		margin-top: 350px;
+		margin-left: 45%;
+	}
+}
+
+@media (min-height: 701px) and (max-height: 800px) {
+	.footer a {
+		margin-top: 450px;
+		margin-left: 45%;
+	}
+}
+*/

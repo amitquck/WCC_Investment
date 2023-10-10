@@ -1,0 +1,341 @@
+body{
+  margin:0;
+  padding:0;
+  /*font-family: 'Montserrat Alternates', sans-serif;*/
+  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Merriweather', serif;
+  font-family: 'Sen', sans-serif;
+  background-color: #f8f9fa;
+}
+*{
+  padding:0;
+  margin:0;
+}
+
+.pt-100 {
+	padding-top: 100px;
+}
+.pt-50 {
+	padding-top: 50px;
+}
+.pt-30 {
+  padding-top: 30px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pb-50 {
+	padding-bottom: 50px;
+}
+.pb-30 {
+  padding-bottom: 30px;
+}
+.mb-100{
+    margin-bottom:100px;
+}
+.mb-50{
+    margin-bottom:50px;
+}
+
+.p-justify{
+  text-align: justify;
+}
+
+.text-green{
+  color: #1b716a;
+}
+/********model************/
+.modal-body{
+  padding: 0;
+
+}
+.modal-header{
+  background: -moz-linear-gradient(top, #f8f8f8, #f2f2f2);
+}
+.modal-dialog {
+    max-width: 600px;
+}
+
+/*************btn*********************/
+
+.btn-theme{
+  display: block;
+ /* padding: 8px 15px;*/
+  text-decoration: none;
+  border: 2px solid #1b716a;
+  color: #1b716a;
+  border-radius: 2em !important;
+  max-width: 540px;
+  margin: 20px;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: 'Philosopher', sans-serif;
+  letter-spacing: 1px;
+}
+.btn-theme:hover, .active{
+	background: #1b716a;
+	color: #fff;
+	transition: all 0.4s ease-in;
+}
+.btn_payment{
+  color: #fff;
+  font-weight: bold;
+}
+.btn_payment:hover i{
+  padding-left: 10px;
+  transition: all 0.3s ease-in;
+}
+/*****************heading style************/
+.heading h2{
+  display: inline-block;
+  text-align: center;
+  padding: 10px 10px 15px; /* bottom padding should be higher to make up for pseudo border height */
+  background: linear-gradient(90deg, transparent 25%, #1a6e68 25%, #2e827c 75%, transparent 75%);
+  background-size: 100% 5px;
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  font-weight: bold;
+}
+.heading-2 h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px 15px;
+    background: linear-gradient(90deg, transparent 25%, #1a6e68 25%, #2e827c 75%, transparent 75%);
+    background-size: 100% 3px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    /*text-transform: capitalize;*/
+    color: #222222;
+    font-family: Cairo;
+    font-size: 50px;
+}
+.heading-2 h2 span {
+    font-weight: 800;
+    color: #1b716a;
+}
+.heading-3 h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 10px 15px;
+    background: linear-gradient(90deg, transparent 25%, #1a6e68 25%, #2e827c 75%, transparent 75%);
+    background-size: 100% 3px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    /*text-transform: capitalize;*/
+    color: #222222;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 40px;
+}
+/********************my_home_modal*******************/
+/*
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #25aaea;
+    outline: 0;
+    box-shadow: none;
+}
+#my_home_modal .modal-header {
+    background: #25aaea;
+    color: #fff;
+}
+#my_home_modal .input-group-text .fas{
+  color: #25aaea;
+}*/
+
+/**************form******************/
+.q-main{
+    /* width:100vh;
+     height:100vh;*/
+ }
+ .q-container{
+     padding:10%;
+ }
+ .q-navigator{
+     position:fixed;
+     bottom:5%;
+     right:5%;
+ }
+ .q-disabled{
+    color:#999;
+    pointer-events: none;
+ }
+ .q-container .q-question{
+   font-family: 'Philosopher', sans-serif;
+    font-size: 26px;
+   /*text-transform: capitalize;*/
+    color: #363636;
+    font-weight: 500;
+    margin-bottom: 10px;
+ }
+ .section-body .q-answer .form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #1b716a !important;
+    outline: 0;
+    box-shadow: none;
+}
+.q-container .q-answer{
+
+}
+.q-container .q-answer .form-control{
+   
+    border-radius: 0;
+    border: none;
+    border-bottom: 2px solid #5d5e5e;
+    height: 45px;
+    font-size: 20px;
+    /*text-transform: capitalize;*/
+    padding-left: 5px;
+    font-family: 'Philosopher', sans-serif;
+   /* background: #f1f1f1;*/
+}
+.q-container .q-answer label.form-check-label {
+    font-size: 20px;
+    /*text-transform: capitalize;*/
+    color: #707375;
+    font-family: 'Philosopher', sans-serif;
+}
+.q-container .q-answer input[type="file"]{
+   border: 2px dotted #5d5e5e;
+  padding: 30px;
+  height: 100px;
+}
+/**********check-box****/
+
+.custom-switch .custom-control-label::after{
+    background-color: #20746e;
+    height: 25px;
+    width: 30px;
+}
+.custom-control-label::before{
+  border: #20746e solid 1px;
+  width: 70px !important;
+  height: 30px;
+}
+/********btn************/
+.btn-green {
+   padding: 5px 10px;
+    color: #fff;
+    background: #1b716a;
+    border: 1px solid #1b716a;
+    margin-top: 5px;
+    font-size: 18PX;
+    font-weight: 600;
+    font-family: 'Philosopher', sans-serif;
+}
+.btn-gray {
+    padding: 10px 15px;
+    color: #fff;
+    background: rgb(130,235,227);
+    background: linear-gradient(90deg, rgba(130,235,227,1) 0%, rgba(45,204,192,1) 33%, rgba(13,198,236,1) 100%);
+    border: 1px solid #1b716a;
+    margin-top: 5px;
+    font-size: 18PX;
+    font-weight: 600;
+    font-family: 'Philosopher', sans-serif;
+}
+/**************/
+.q-navigator a{
+    padding: 8px 15px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #20746e;
+    width: 40px;
+    height: 40px;
+}
+.q-disabled {
+    color: #ccc !important;
+    pointer-events: none;
+}
+.card{
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(105,103,105,0.22);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(105,103,105,0.22);
+  box-shadow: 0px 1px 5px 1px rgba(105,103,105,0.22);
+}
+/*************payment*******/
+.payment h4{
+  font-family: 'Philosopher', sans-serif;
+  /*color: #1b716a;*/
+}
+.payment .total{
+  font-weight: bold;
+}
+.payment td{
+  border-bottom: 1px solid lightgray;
+  font-size: 18px;
+}
+.total-payment p{
+  font-size: 20px;
+  font-weight: bold;
+  color:  #fff;
+  font-family: 'Philosopher', sans-serif;
+}
+.total-payment{
+  background: #ffc107;
+  padding: 15px 0;
+}
+.total-payment a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.payment_header{
+  background: #e9ecef;
+  padding: 15px 0;
+
+}
+
+/***********customer_page_box************/
+
+.customer_page_box .far{
+  font-size: 40px;
+  color: #1b716a;
+}
+.customer_page_box{
+  padding: 30px;
+  font-family: 'Philosopher', sans-serif;
+  box-shadow: 0 2px 5px 3px lightgrey;
+}
+.customer_page_box .plan_btn a{
+    text-decoration: none;
+    color: #222222;
+
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.form-check-inline{
+  display: block;
+}
+.form-check-inline label{
+  display: inline;
+}
+/***************media Quary********/
+@media only screen and (max-width: 768px) { 
+  .btn-theme {
+    width: auto;
+    font-size: 16px;
+}
+.heading-2 h2, .heading-3 h2{
+  font-size: 36px;
+}
+}
+@media only screen and (max-width: 600px) { 
+.q-container .q-answer label.form-check-label {
+    font-size: 16px;
+}
+.q-container{
+     padding:5%;
+ }
+}
+@media only screen and (max-width: 488px) { 
+.heading-2 h2, .heading-3 h2{
+  font-size: 26px;
+}
+}

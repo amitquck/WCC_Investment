@@ -1,0 +1,22 @@
+.lu-success{
+	color: #00a65a;
+	font-size: 17px;
+	font-weight:bold;
+}
+.lu-error{
+	color: #c7254e;
+	font-size: 17px;
+	font-weight:bold;
+}
+.modal-dialog{
+	margin-left: 225px;
+	width: 83%;
+}
+
+@media (min-width:576px) {
+.form-inline .form-control {
+   
+    width: 100% !important;
+   
+}
+}

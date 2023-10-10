@@ -1,0 +1,35 @@
+
+
+.person img{
+   width: 68px;
+   height: 77px;
+   border-radius: 4px 4px 0 0;
+} 
+.management-hierarchy .person > p.name{
+   width: 68px !important;
+}
+.gutters-sm .card-body span i{
+	transition: transform .5s, filter 1.5s ease-in-out;
+	font-size: 70px;
+    position: absolute;
+    right: 20px;
+    opacity: 0.4;
+    top: 10px;
+}
+.gutters-sm .card-body:hover span i{
+	transform: scale(1.5);
+}
+.gutters-sm .card{
+	max-height: 110px;
+}
+.gutters-sm .card .card-title{
+	font-size: 18px;
+}
+.sidebar .nav-link{
+   /* padding-left: 10px !important;*/
+   padding: .5rem .5rem !important;
+}
+.table .table-actions .btn-link {
+    display: inline-block !important;
+    padding: 5px !important;
+}
